@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    <section id="consulta">
+        <div class="container">
+            <form>
+                <h1>Consultar CEP</h1>
+                <div class="form-group">
+                    <label for="cep">
+                        CEP
+                    </label>
+                    <input type="text" maxlength="9" id="cep">
+                </div>
+
+                <div class="resultado">
+                <div class="form-group">
+                    <label for="logradouro">
+                        Endereço
+                    </label>
+                    <input type="text" id="logradouro">
+                </div>
+                <div class="form-group">
+                    <label for="bairro">
+                        Bairro
+                    </label>
+                    <input type="text" id="bairro">
+                </div>
+                <div class="form-group">
+                    <label for="cidade">
+                        Cidade
+                    </label>
+                    <input type="text" id="localidade">
+                </div>
+                <div class="form-group">
+                    <label for="uf">
+                        UF
+                    </label>
+                    <input type="text" id="uf">
+                </div>
+                </div>
+                <button id="button" type="button" onclick="e()">Consultar</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="src/main.js"></script>
+</body>
+</html>
