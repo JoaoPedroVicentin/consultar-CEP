@@ -1,6 +1,6 @@
 # Consultar CEP
 
-### O projeto consiste em uma simples aplicação para consultar os dados do CEP inserindo utlizando a API dos correios
+### O projeto consiste em uma simples aplicação para consultar os dados do CEP inserido utlizando a API dos correios
 <br>
 
  <h1 align="center">
