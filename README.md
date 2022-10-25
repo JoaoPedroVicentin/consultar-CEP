@@ -24,7 +24,7 @@
 ```bash
 
 #Clone este repositório
-$ git clone https://github.com/JoaoPedroVicentin/consultar-CEP.git
+$ git clone https://github.com/JoaoPedroVicentin/consultar-cep.git
 ```
 ##
 
